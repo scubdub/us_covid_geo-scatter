@@ -160,5 +160,5 @@ fig.update_layout(
 	)
 
 # generate static html plot
-fig.update_layout(height=700)
+fig.update_layout(height=650)  # reduced b/c slider wasn't always visible
 fig.write_html("us_covid_cases_static.html")
