@@ -5,6 +5,8 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
+
+
 date_pattern = re.compile(r"\d{1,2}/\d{1,2}/\d{2}")
 def reformat_dates(col_name: str) -> str:
 	try:
